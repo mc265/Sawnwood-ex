@@ -31,13 +31,20 @@ enabled:false
             text: 'Sawnwood export quantity'
         },
     
+    
       xAxis: {
-            type: 'datetime',
-         labels: {
-              format: '{value:%Y}'
-          
+            type: 'date ',
+            title: {
+            enabled: true,
+            text: 'Year'
             }
-         
+        },
+        
+        yAxis: {
+          title:{
+            enabled:true,
+            text: 'cubic meters(m3)'
+          }
         },
         series: [{
             name: 'Sawnwood',
